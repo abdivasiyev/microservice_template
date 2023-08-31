@@ -1,0 +1,8 @@
+.idea/
+.vscode/
+.env
+*.DS_Store
+*.log
+*.exe
+/vendor
+logs/
