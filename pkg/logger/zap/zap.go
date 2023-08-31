@@ -45,8 +45,8 @@ func New(params Params) (*Logger, error) {
 
 	var (
 		logLevel    = params.Config.GetString(env.LogLevel)
-		namespace   = params.Config.GetString(env.Namespace)
-		environment = params.Config.GetString(env.Environment)
+		namespace   = params.Config.GetString(env.AppNamespace)
+		environment = params.Config.GetString(env.AppEnvironment)
 		encoderCfg  = func(environment, timeFormat string) zapcore.EncoderConfig {
 			var cfg zapcore.EncoderConfig
 
