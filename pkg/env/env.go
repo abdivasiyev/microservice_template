@@ -8,4 +8,8 @@ const (
 	AppEnvironment = "app.environment"
 	SentryDSN      = "sentry.dsn"
 	TracerURL      = "tracer.url"
+	SmtpHost       = "smtp.host"
+	SmtpPort       = "smtp.port"
+	SmtpUsername   = "smtp.username"
+	SmtpPassword   = "smtp.password"
 )
